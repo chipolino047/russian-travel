@@ -86,10 +86,6 @@
         object-position: 0 0;
     }
 
-    .place__paragraph {
-        max-width: 456px;
-    }
-
     .place {
         column-gap: 32px;
     }
@@ -160,10 +156,6 @@
         margin-bottom: 88px;
     }
 
-    .place__title {
-        margin-top: 88px;
-    }
-
     .places__block {
         margin: 0 24px;
     }
@@ -175,7 +167,7 @@
     .place__title {
         font-size: 42px;
         line-height: 1.1;
-        margin-top: 73px;
+        margin-top: 88px;
     }
 
     .place__title_margin {
