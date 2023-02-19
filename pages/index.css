@@ -34,18 +34,11 @@
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/intro/__list/_span/intro__list_span.css);
-@import url(../blocks/content/__block/content__block.css);
-@import url(../blocks/cover/__block/cover__block.css);
-@import url(../blocks/footer/__block/footer__block.css);
-@import url(../blocks/foto-grid/__block/foto-grid__block.css);
-@import url(../blocks/header/__block/header__block.css);
-@import url(../blocks/intro/__block/intro__block.css);
-@import url(../blocks/lead/__block/lead__block.css);
+@import url(../blocks/intro/intro__list-span/intro__list-span.css);
 @import url(../blocks/page/__block/page__block.css);
 @import url(../blocks/place/__block/place__block.css);
 @import url(../blocks/places/__block/places__block.css);
-@import url(../blocks/intro/__list/_column/intro__list_column.css);
+@import url(../blocks/intro/intro__list-column/intro__list-column.css);
 
 @media screen and (max-width: 1279px) {
     .foto-grid {
@@ -55,7 +48,7 @@
         gap: 14px;
     }
 
-    .foto-grid__block {
+    .foto-grid {
         margin: 0 48px;
     }
 
@@ -94,7 +87,7 @@
         margin: 0 48px 0 48px;
     }
 
-    .cover__block {
+    .cover {
         margin: 92px auto;
     }
 
@@ -102,13 +95,13 @@
         margin: 56px auto 92px auto;
     }
 
-    .intro__block {
+    .intro {
         margin: 0 0 0 148px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .header__block {
+    .header {
         margin: 28px 24px 0 24px;
     }
 
@@ -116,7 +109,7 @@
         max-width: 100%;
     }
 
-    .lead__block {
+    .lead {
         margin: 0 auto;
     }
 
@@ -128,7 +121,7 @@
         margin: 10px 0 0 24px;
     }
 
-    .intro__block {
+    .intro {
         margin: 0 24px;
     }
 
@@ -141,7 +134,7 @@
         grid-auto-rows: 1fr;
     }
 
-    .foto-grid__block {
+    .foto-grid {
         margin: 0 24px;
     }
 
@@ -183,11 +176,11 @@
         max-height: 340px;
     }
 
-    .cover__block {
+    .cover {
         margin-top: 90px;
     }
 
-    .footer__block {
+    .footer {
         margin: 88px 24px 24px 24px;
     }
 }
@@ -199,7 +192,7 @@
         gap: 12px;
     }
 
-    .foto-grid__block {
+    .foto-grid {
         margin: 0 16px;
     }
 
@@ -210,7 +203,7 @@
         object-position: 0 0;
     }
 
-    .header__block {
+    .header {
         margin: 16px 16px 0 16px;
     }
 
@@ -232,7 +225,7 @@
         max-width: 100%;
     }
 
-    .lead__block {
+    .lead {
         margin: 0 auto;
     }
 
@@ -262,7 +255,7 @@
         margin: 40px 0 34px 0;
     }
 
-    .intro__block {
+    .intro {
         margin: 0 16px;
     }
 
@@ -330,7 +323,7 @@
         height: 200px;
     }
 
-    .cover__block {
+    .cover {
         margin: 66px auto 64px auto;
     }
 
@@ -355,7 +348,7 @@
         max-width: 186px;
     }
 
-    .footer__block {
+    .footer {
         margin: 64px 0 24px 16px;
     }
 
