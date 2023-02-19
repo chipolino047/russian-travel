@@ -211,9 +211,6 @@
 
     .lead {
         max-width: 100%;
-    }
-
-    .lead {
         margin: 0 auto;
     }
 
@@ -309,9 +306,6 @@
     .cover {
         width: 320px;
         height: 200px;
-    }
-
-    .cover {
         margin: 66px auto 64px auto;
     }
 
@@ -334,9 +328,6 @@
         justify-content: end;
         max-height: 310px;
         max-width: 186px;
-    }
-
-    .footer {
         margin: 64px 0 24px 16px;
     }
 
