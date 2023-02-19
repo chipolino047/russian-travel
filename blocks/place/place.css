@@ -6,4 +6,5 @@
     "image paragraph";
     column-gap: 40px;
     grid-auto-flow: column;
+    margin: 0 auto;
 }
