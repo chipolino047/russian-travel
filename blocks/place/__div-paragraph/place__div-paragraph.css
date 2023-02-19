@@ -1,0 +1,4 @@
+.place__div-paragraph {
+    grid-area: paragraph;
+    max-width: 100%;
+}

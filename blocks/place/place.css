@@ -1,0 +1,9 @@
+.place {
+    max-width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "title website"
+    "image paragraph";
+    column-gap: 40px;
+    grid-auto-flow: column;
+}
