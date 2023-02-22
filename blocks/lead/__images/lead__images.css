@@ -2,3 +2,15 @@
     margin: 64px auto 92px auto;
     max-width: 100%;
 }
+
+@media screen and (max-width: 1279px) {
+    .lead__images {
+        margin: 56px auto 92px auto;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__images {
+        margin: 40px 0 34px 0;
+    }
+}

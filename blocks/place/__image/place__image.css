@@ -6,3 +6,29 @@
     object-position: 0 0;
     grid-area: image;
 }
+
+@media screen and (max-width: 1279px) {
+    .place__image {
+        width: 460px;
+        height: 460px;
+        object-fit: contain;
+        object-position: 0 0;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .place__image {
+        max-width: 340px;
+        max-height: 340px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .place__image {
+        margin: 32px auto 0 auto;
+        width: 320px;
+        max-height: 320px;
+        object-fit: cover;
+        object-position: 0 0;
+    }
+}
