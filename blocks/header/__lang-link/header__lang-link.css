@@ -6,12 +6,17 @@
     font-size: 24px;
     line-height: 1.17;
     color: #FFF;
-    max-width: 30px;
-    max-height: 28px;
+    max-width: 100%;
     margin: 18px 0 6px 18px;
 }
 
-.header__lang-link:hover {
+.header__lang-link:first-child {
+    margin-left: 0;
+}
+
+.header__lang-link:hover, .header__lang-link:active {
+    opacity: .5;
+    transition: .7s ease;
     text-decoration: underline;
 }
 
@@ -20,8 +25,6 @@
         font-size: 18px;
         line-height: 1.11;
         color: #FFF;
-        width: 22px;
-        height: 20px;
         margin: 14px 0 8px 18px;
     }
 }
