@@ -34,9 +34,5 @@
 @import url(../blocks/footer/__nav/footer__nav.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/intro/__list/_span/intro__list_span.css);
-@import url(../blocks/intro/__list/_column/intro__list_column.css);
-
-* {
-    outline: 1px solid yellowgreen;
-}
+@import url(../blocks/intro/__list-column/intro__list-column.css);
+@import url(../blocks/intro/__list-span/intro__list-span.css);
