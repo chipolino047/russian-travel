@@ -5,6 +5,7 @@
     margin: 0 auto;
     object-position: 0 0;
     box-sizing: border-box;
+    aspect-ratio: 16/10;
 }
 
 @media screen and (max-width: 1279px) {
