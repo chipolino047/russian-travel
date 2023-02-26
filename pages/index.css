@@ -38,3 +38,7 @@
 @import url(../blocks/intro/__list-column/intro__list-column.css);
 @import url(../blocks/intro/__list-span/intro__list-span.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+
+* {
+    outline: 1px solid yellowgreen;
+}
