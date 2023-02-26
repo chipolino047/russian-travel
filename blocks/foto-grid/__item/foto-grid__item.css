@@ -1,9 +1,10 @@
 .foto-grid__item {
-    width: 284px;
-    height: 213px;
+    max-width: 284px;
+    max-height: 213px;
     object-fit: cover;
     object-position: 0 0;
     margin: 0 auto;
+    aspect-ratio: 13/10;
 }
 
 @media screen and (max-width: 1279px) {
