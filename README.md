@@ -11,4 +11,4 @@
 "До Байкана 'на собаках'" - тоже ссылка, к которой применено затемнение
 
 ### Ссылка на проект 
-https://github.com/chipolino047/russian-travel/
+https://chipolino047.github.io/russian-travel/
